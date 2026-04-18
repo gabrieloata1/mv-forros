@@ -1,0 +1,10 @@
+[build]
+  # O comando de build deve ser executado a partir da raiz, instalando e buildando o client
+  command = "cd client && npm install && npm run build"
+  # O diretório que contém o site pronto para o Netlify servir
+  publish = "client/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
