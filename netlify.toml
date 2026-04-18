@@ -1,8 +1,6 @@
 [build]
-  # Instala as dependências e executa o build do Vite a partir da raiz
   command = "npm install && npm run build"
-  # O diretório de saída definido no vite.config.ts é dist/public
-  publish = "dist/public"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
