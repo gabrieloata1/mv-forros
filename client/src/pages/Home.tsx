@@ -40,9 +40,16 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Forro PVC e Drywall de Qualidade
-            </h1>
+            <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
+              <img
+                src="/assets/avatar-empresa.png"
+                alt="Avatar MV Forros"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-blue-600 shadow-xl object-cover"
+              />
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight text-center md:text-left">
+                Forro PVC e Drywall de Qualidade
+              </h1>
+            </div>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Transformamos seus ambientes com soluções profissionais em forro PVC e divisórias em Drywall. Instalação e venda de materiais em Itaquaquecetuba e região.
             </p>
