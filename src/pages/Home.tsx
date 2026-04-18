@@ -20,7 +20,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <img
-            src="/manus-storage/mv-forros-logo-nobg_a18612d1.png"
+            src="/assets/logo.png"
             alt="MV Forros Logo"
             className="h-16 object-contain"
           />
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/manus-storage/IMG-20260417-WA0021_517b6632.jpg"
+                  src="/assets/forro-pvc.jpg"
                   alt="Forro PVC"
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -115,7 +115,7 @@ export default function Home() {
             <div className="flex flex-col">
               <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="/manus-storage/IMG-20260417-WA0022~2_9d6d7a07.jpg"
+                  src="/assets/drywall.jpg"
                   alt="Drywall"
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -151,14 +151,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/manus-storage/IMG-20260417-WA0020~2_c62b67b3.jpg"
+                src="/assets/projeto-1.jpg"
                 alt="Projeto de Forro"
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/manus-storage/IMG-20260417-WA0021_517b6632.jpg"
+                src="/assets/forro-pvc.jpg"
                 alt="Projeto de Forro"
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
               />
