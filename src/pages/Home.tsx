@@ -22,7 +22,7 @@ export default function Home() {
           <img
             src="/assets/logo.png"
             alt="MV Forros Logo"
-            className="h-16 object-contain"
+            className="h-[83px] object-contain"
           />
           <Button
             asChild
