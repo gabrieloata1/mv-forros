@@ -1,8 +1,14 @@
 [build]
+  # Comando de build que limpa o cache e instala tudo do zero
   command = "npm install && npm run build"
+  # Pasta de saída padrão do Vite
   publish = "dist"
+  # Garante que o Netlify use o Node.js mais recente
+  [build.environment]
+    NODE_VERSION = "20"
 
 [[redirects]]
+  # Regra essencial para Single Page Application (SPA) - Evita o erro 404 ao atualizar a página
   from = "/*"
   to = "/index.html"
   status = 200
