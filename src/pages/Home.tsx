@@ -148,17 +148,10 @@ export default function Home() {
             Trabalhos Realizados
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-2xl mx-auto">
             <div className="overflow-hidden rounded-lg shadow-lg">
               <img
                 src="/assets/projeto-1.jpg"
-                alt="Projeto de Forro"
-                className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="/assets/forro-pvc.jpg"
                 alt="Projeto de Forro"
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
               />
